@@ -1,0 +1,65 @@
+body {
+    font-family: Tahoma, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    color: #333333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #e269ff;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+#formacion {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    padding-inline: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#sobremi, #habilidades, #contacto {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 30px;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.destacado {
+    background-color: #d7e5f3;
+    padding: 15px;
+    border-left: 4px solid #0056b3;
+    font-weight: 500;
+    text-align: left;
+}
+
+.tablaBonita {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.tablaBonita th, .tablaBonita td {
+    border: 1px solid #cccccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.tablaBonita td {
+    background-color: #e269ff;
+    color: white;
+}
