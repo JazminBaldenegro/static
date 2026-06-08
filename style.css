@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 body {
     font-family: Tahoma, Verdana, sans-serif;
     background-color: #f4f4f9;
@@ -62,4 +63,138 @@ footer {
 .tablaBonita td {
     background-color: #e269ff;
     color: white;
+=======
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --primary-color: #534AB7;
+    --secundary-color: #2d2b55;
+    --text-color: #ffffff;
+    --bg-color: #1a1a2e;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #1a1a2e 0%, #2d1b69 50%, #534AB7 100%);
+    color: var(--text-color);
+    padding: 50px 5%;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 5%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.container {
+    position: relative;
+    height: 100%;
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.nom {
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.barraNav a {
+    font-size: 18px;
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    border-bottom: 2px solid transparent;
+    transition: .5s;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 120px 5% 0;
+    color: #fff;
+}
+
+.home-detail h1 {
+    font-size: 38px;
+    line-height: 1;
+}
+
+.home-detail h2 {
+    font-size: 24px;
+}
+
+.home-detail p {
+    margin: 10px 0 20px;
+}
+
+.redes-icon {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.home-detail {
+    margin: 20px;
+    flex: 1;
+}
+
+.redes-icon a {
+    display: inline-flex;
+    padding: 8px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.redes-icon a:hover{
+    background: #fff;
+    box-shadow: 0 0 5px #fff;
+    color: #333;
+}
+.foto-perfil , .img-box{
+    position: relative;
+    width: 20vw;
+    height: 20vw;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+.foto-perfil, .img-box  img{
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 100%;
+    object-fit:cover ;
+    height: 100%;
+}
+#contacto a, .home-detail a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#contacto a:hover {
+    color: var(--primary-color);
+>>>>>>> Stashed changes
 }
